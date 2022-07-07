@@ -4,6 +4,7 @@
 @import url('/src/style/reset.css');
 @import url('/src/style/colors.css');
 @import url('/src/style/main.css');
+@import url('/src/style/media.css');
 
 html {
   background-color: var(--main-primary-bg-color);

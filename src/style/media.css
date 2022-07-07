@@ -1,0 +1,192 @@
+@media only screen and (min-width: 768px) {
+  nav .nav-name a, .nav-contact a {
+    font-weight: 700;
+  }
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 15px 15px 20px 15px;
+  }
+  header .header-left-side {
+    width: 70%;
+  }
+  header .header-left-side h1, h2 {
+    padding: 5px 0px;
+  }
+  header .header-left-side .header-contact button:first-child {
+    padding-left: 0px;
+  }
+  header .header-right-side img {
+    margin-left: auto;
+    width: 146px;
+    height: 146px;
+  }
+
+  .about h1, .about p {
+    padding: 10px 10px 10px 0px;
+  }
+
+  .skills {
+    padding: 0px 15px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .hobbies {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .skills .skill-card {
+    width: 27%;
+  }
+
+  .academics-list {
+    display: flex;
+  }
+  main .academics-list .academics-card {
+    width: 100%;
+  }
+  main .academics-list .academics-card .card-image {
+    margin: 5px;
+  }
+
+  main .experiences .experiences-card {
+    padding-bottom: 40px;
+  }
+  main .experiences .experiences-card:last-child {
+    padding-bottom: 0px;
+  }
+  main .experiences .experiences-card .card-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  nav, header, .about, .skillss {
+    padding: 0px 130px;
+  }
+  nav .nav-name, .nav-contact, ul, a, i{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  nav .nav-contact ul {
+    display: flex;
+  }
+  nav .nav-contact ul li:last-child {
+    margin-right: 30px;
+  }
+  nav .nav-contact ul li {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 15px;
+  }
+
+  header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  header .header-left-side .header-contact {
+    display: flex;
+  }
+  header .header-left-side h1 {
+    font-size: 51px;
+  }
+  header .header-left-side h2 {
+    font-size: 22px;
+  }
+  header .header-left-side .header-contact a:nth-child(1) {
+    padding-left: 0px;
+  }
+  header .header-left-side .header-contact a {
+    font-size: 20px;    
+  }
+  header .header-right-side img {
+    margin-left: auto;
+    width: 368px;
+    height: 368px;
+  }
+
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about h1, .skills h1 { 
+    font-size: 32px;  
+    font-weight: 700;
+  }
+  .about p {
+    font-size: 16px;
+    width: 65%;
+  }
+
+  .skills {
+    padding-top: 30px;
+  }
+  .skills .skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 13%;
+    min-height: 174px;
+  }
+  .skills .skill-card p {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .hobbies {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  main .academics {
+    padding: 50px 150px;
+  }
+  main .academics h1 {
+    font-size: 32px;
+  }
+  main .academics .academics-list .academics-card .card-image {
+    height: 286px;
+    align-items: center;
+  }
+  main .academics .academics-list .academics-card .card-image img {
+    height: 320px;
+    width: 100%;
+  }
+  main .academics .academics-card h2 {
+    font-size: 22px;
+  }
+  main .academics .academics-card p {
+    font-size: 16px;
+  }
+  
+  main .experiences {
+    padding: 50px 150px;
+  }
+  main .experiences h1, .contact h1 {
+    font-size: 32px;
+  }
+  main .experiences .card-desc h1 {
+    font-size: 22px;
+  }
+  main .experiences .card-desc p, .card-action a {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  main .experiences .card-desc:last-of-type, .card-action:nth-child(2) {
+    text-align: end;
+    justify-content: flex-end;
+  }
+
+  main .contact h1 {
+    font-size: 32px;
+  }
+
+  footer {
+    padding: 60px;
+  }
+
+}

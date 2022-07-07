@@ -10,22 +10,34 @@
   <nav>
     <div class="nav-name">
       <i class="fa fa-star"></i>
-      <a href="#">Fulano de tal</a>
+      <a href="#">Caio Sales</a>
     </div>
     <div class="nav-contact">
-      <a href="#">contato@fulano.com</a>
+      <ul>
+        <li>Sobre mim</li>
+        <li>Skills</li>
+        <li>Hobbies</li>
+        <li>Formação</li>
+        <li>Projetos</li>
+      </ul>
+      <a href="#">salesrocketdev@outlook.com</a>
     </div>
   </nav>
-  <header>
-    <img src="src/img/me.png" alt="me">
-    <h1>Olá, meu nome é Fulano de Tal e construo páginas web</h1>
-    <h2>Eu sou formado em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h2>
 
-    <div class="header-contact">
-      <button>Github<i class="fa fa-github"></i></button>
-      <button>Linkedin<i class="fa fa-linkedin"></i></button>
-      <button>Instagram<i class="fa fa-instagram"></i></button>
-      <button>Curriculo<i class="fa fa-file-pdf"></i></button>
+  <header>
+    <div class="header-right-side">
+      <img src="https://avatars.githubusercontent.com/u/27980455?v=4" alt="me">
+    </div>
+    <div class="header-left-side">
+      <h1>Olá, meu nome é Caio Sales e construo páginas web</h1>
+      <h2>Eu sou formado em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h2>
+
+      <div class="header-contact">
+        <a>Github<i class="fa fa-github"></i></a>
+        <a>Linkedin<i class="fa fa-linkedin"></i></a>
+        <a>Instagram<i class="fa fa-instagram"></i></a>
+        <a>Curriculo<i class="fa fa-file-pdf"></i></a>
+      </div>
     </div>
   </header>
 
@@ -33,7 +45,7 @@
     <h1>Sobre mim</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-    <h1 class="handwritten">Sales Rocket Dev</h1>
+    <h1 class="handwritten">Caio Sales</h1>
   </section>
 
   <section class="skills">
@@ -65,7 +77,7 @@
     </div>
   </section>
 
-  <section class="skills">
+  <section class="hobbies skills">
     <h1>Hobbies</h1>
 
     <div class="skill-card">
@@ -97,28 +109,30 @@
   <main>
     <article class="academics">
       <h1>Formação acadêmica</h1>
-      <div class="academics-card">
-        <div class="card-image">
-          <img src="src/img/academy-1.png" alt="UFRJ">
-        </div>        
-        <h2>Análise de dados</h2>
-        <p>2018 - UFRJ</p>
-      </div>
-
-      <div class="academics-card">
-        <div class="card-image">
-          <img src="src/img/academy-3.png" alt="Alura">
-        </div>        
-        <h2>Formação UX Design</h2>
-        <p>2021 - Alura</p>
-      </div>
-
-      <div class="academics-card">
-        <div class="card-image">
-          <img src="src/img/academy-1.png" alt="UFRJ">
-        </div>        
-        <h2>Pós-graduação Design</h2>
-        <p>Em andamento - UFRJ</p>
+      <div class="academics-list">
+        <div class="academics-card">
+          <div class="card-image">
+            <img src="src/img/academy-1.png" alt="UFRJ">
+          </div>        
+          <h2>Análise de dados</h2>
+          <p>2018 - UFRJ</p>
+        </div>
+  
+        <div class="academics-card">
+          <div class="card-image">
+            <img src="src/img/academy-3.png" alt="Alura">
+          </div>        
+          <h2>Formação UX Design</h2>
+          <p>2021 - Alura</p>
+        </div>
+  
+        <div class="academics-card">
+          <div class="card-image">
+            <img src="src/img/academy-1.png" alt="UFRJ">
+          </div>        
+          <h2>Pós-graduação Design</h2>
+          <p>Em andamento - UFRJ</p>
+        </div>
       </div>
     </article>
     <article class="experiences">
@@ -126,12 +140,14 @@
       <div class="experiences-card">
         <div class="card-image">
           <img src="src/img/challenge1.png" alt="Projeto 01">
-        </div>        
-        <h2>Decodificador de texto</h2>
-        <p>Challenge oracle</p>
+        </div>
+        <div class="card-desc">
+          <h2>Decodificador de texto</h2>
+          <p>Challenge oracle</p>
+        </div>
         <div class="card-action">
-          <a class="btn-1" href="#">Repositório</a>
-          <a class="btn-2" href="#">Ver demo</a>
+          <a class="btn-1" href="https://github.com/salesrocketdev/crypterde">Repositório</a>
+          <a class="btn-2" href="https://salesrocketdev.github.io/crypterde/">Ver demo</a>
         </div>
       </div>
 
@@ -139,17 +155,19 @@
         <div class="card-image">
           <img src="src/img/challenge2.png" alt="Projeto 02">
         </div>        
-        <h2>Jogo criado com HTML, CSS e JavaScript</h2>
-        <p>Challenge oracle</p>
+        <div class="card-desc">
+          <h2>Jogo criado com HTML, CSS e JavaScript</h2>
+          <p>Challenge oracle</p>
+        </div>
         <div class="card-action">
-          <a class="btn-1" href="#">Repositório</a>
-          <a class="btn-2" href="#">Ver demo</a>
+          <a class="btn-1" href="https://github.com/salesrocketdev/crypterde">Repositório</a>
+          <a class="btn-2" href="https://salesrocketdev.github.io/crypterde/">Ver demo</a>
         </div>
       </div>
     </article>
     <article class="contact">
       <h1>Contato</h1>
-      <p>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+      <p>Quer entrar em contato comigo? <br> Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
       <form>
         <label for="name">Nome</label>
         <input id="name" type="text">
@@ -169,7 +187,8 @@
   </main>
 
   <footer>
-    <p>Desenvolvido por Fulano de Tal 2021</p>
+    <p>Desenvolvido por Caio Sales</p>
+    <p>2022</p>
   </footer>
   <script src="https://kit.fontawesome.com/e78ed10b68.js" crossorigin="anonymous"></script>  
 </body>
